@@ -1,4 +1,4 @@
-# DL-pixel-classification
+# sparcnet (SPARrse annotation Classifier  uNET)
 * [Pixel Classification](#pixel-classification)
 * [Goals](#goals)
 * [Step-by-step tutorial](#step-by-step-tutorial)
@@ -49,18 +49,17 @@ During the installation, check the box "Add Anaconda/Miniconda to my PATH enviro
 
 II. Create and activate a new environment
 ------
-Start Miniconda prompt and write <br />   `conda create -n vessels_lightsheet -c conda-forge python=3.11` <br /> then <br />    `conda activate vessels_lightsheet`<br />
+Start Miniconda prompt and write <br />   `conda create -n sparcnet -c conda-forge python=3.10 -y` <br /> then <br />    `conda activate sparcnet`<br />
 
 III. Installation dependencies
 ------
-`pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124`<br />
-`pip install "napari[all]"`<br />
-`pip install albumentations matplotlib scipy tifffile czifile `<br />
-`pip install --upgrade git+https://github.com/Project-MONAI/MONAI `<br />
+`pip install torch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1 --index-url https://download.pytorch.org/whl/cu124`<br />
+`pip install "napari[all]" albumentations matplotlib scipy tifffile czifile notebook`<br />
+`pip install ipykernel `<br />
+`python -m ipykernel install --user --name sparcnet --display-name "Python (sparcnet)" `<br />
+`pip install --upgrade git+https://github.com/Project-MONAI/MONAI`<br />
 `pip install --upgrade git+https://github.com/True-North-Intelligent-Algorithms/tnia-python.git`<br />
 `pip install --upgrade git+https://github.com/True-North-Intelligent-Algorithms/napari-easy-augment-batch-dl.git`<br />
-`pip install "numpy<2.0"`<br />
-`pip install notebook`<br />
 
 
 When launching Jupyter Notebook, it often opens in a default directory like `C:\Users\YourUsername`. To avoid navigation issues, it's recommended to create your project folder directly in this default location.Ten, download the following scripts, and place them inside that folder. <br /> [vessels_semantic_framework.py](https://github.com/True-North-Intelligent-Algorithms/tnia-python/blob/main/notebooks/imagesc/2025_03_19_vessel_3D_lightsheet/vessels_semantic_framework.py)
