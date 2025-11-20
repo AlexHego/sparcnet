@@ -331,6 +331,7 @@ Citation
 This project builds on the work by Brian Northan [True North Intelligent Algorithms](https://github.com/True-North-Intelligent-Algorithms). I reuse and adapt parts of his code and ideas to demonstrate semantic segmentation workflows for my lightsheet imaging.
 
 If you use it successfully for your research please be so kind to cite theses Github: [3D Vessel Segmentation using 2D U-Net](https://github.com/True-North-Intelligent-Algorithms/tnia-python/tree/main/notebooks/imagesc/2025_03_19_vessel_3D_lightsheet)
-</br> and this github if you use my script [DL-pixel-classification](https://github.com/AlexHego/DL-pixel-classification)
+</br> and this github if you use my script [sparcnet](https://github.com/AlexHego/DL-pixel-classification)
+
 
 
