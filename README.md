@@ -312,18 +312,10 @@ Results
 
 Below are some example of results. 
 
-**Color legend:**
-- 🟢 **Green** – Raw data  
-- 🔴 **Red** – Model prediction  
-- 🟡 **Yellow** – Overlay (Raw + Prediction)
-
+### Before and after
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/fc3f62c7-0fcc-4c1b-bed9-8699b274eb02" height="350" />
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/user-attachments/assets/d6db9482-c442-49fd-88e5-60418ad2de43" height="350" />
+<img alt="brainrotation" src="https://github.com/user-attachments/assets/fc2ff58d-453d-48d7-9f75-c342ab546567" height="600" />
 </p>
-
-
 
 
 Citation
